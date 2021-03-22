@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background: #aaa;
+            padding: 0 15px;
+            /* display: flex; */
+        }
+        nav a{
+            background-color: #faa;
+            padding: 15px 10px;
+            display: inline-block;
+            border-radius: 4px;
+
+        }
+        span{
+            /* background-color: #faa; */
+            width: 300px;
+            height: 300px;
+        }
+        ul{
+            background-color: #aaa;
+            display: block;
+        }
+        .box{
+            width: 600px;
+            height: 600px;
+            background-color: #ccc;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            align-content: flex-end;
+        }
+        .item{
+            width: 150px;
+            height: 150px;
+            background-color: #faa;
+            margin: 2px;
+            font-size: 50px;
+        }
+        .item:first-child{
+            height: 200px;
+            background-color: #faa;
+        }
+        .item:nth-child(5){
+            height: 200px;
+            background-color: #faa;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <!-- <div class="item">6</div> -->
+
+    </div>
+
+
+
+    <h1>title</h1>
+    <span>span</span>
+    
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <span>span</span>
+
+</body>
+</html>

@@ -25,8 +25,8 @@
             /* padding: 15px; */
         }
         .only img{
-            width: 100%;
-            /* padding: 15px; */
+            width: 570px;
+            padding: 15px;
         }
         .pic{
             margin: 15px;
@@ -53,24 +53,47 @@
             margin: auto;
         }
         .three{
-            width: 1170;
+            width: 1170px;
             display: flex;
             margin: auto;
+        }
+        .three .item{
+            width: 100%;
         }
         .only {
-            display: flex;
-            margin: auto;
+            width: 570px;
+            margin: only;
         }
         .sumikkobig{
-            margin: auto;
+            margin: 15px;
         }
         
-        .tagprice b{ 
-            text-decoration: line-through; 
-            font-weight:100;
+        .tagprice del{ 
             color: grey;
             padding: 15px;
             line-height: 0.1px;
+            /* background-color:black; */
+            -webkit-margin-before: 0em;
+            -webkit-margin-after: 0em;
+            -webkit-margin-start: 0px;
+            /* -webkit-margin-end: 0px; */
+        }
+        .tagprice ins{
+            color: grey;
+            padding: 15px;
+            line-height: 0.1px;
+            text-decoration: none;
+            /* background-color:black; */
+            -webkit-margin-before: 0em;
+            -webkit-margin-after: 0em;
+            -webkit-margin-start: 0px;
+            /* -webkit-margin-end: 0px; */
+        }
+        .saleprice ins{
+            color: grey;
+            padding: 15px;
+            line-height: 0.1px;
+            text-decoration: none;
             /* background-color:black; */
             -webkit-margin-before: 0em;
             -webkit-margin-after: 0em;
@@ -83,7 +106,9 @@
 <body>
     
     <div class="first">
-        <img src="https://shoplineimg.com/5b4461529a76f081a2000629/5d67af134bdc78003ec737ea/2200x.webp?source_format=jpg" alt="">
+        <h1 >
+        <img src="https://shoplineimg.com/5b4461529a76f081a2000629/5d67af134bdc78003ec737ea/2200x.webp?source_format=jpg" alt="新品上市">
+        </h1>
     </div>
 
     <div class="two">
@@ -97,10 +122,10 @@
                     <h4>賈以食日-拌雙粉 醋香豆瓣（1袋/3入）</h4>
                 </div>
                 <div class="tagprice">
-                    <b>$249</b>
+                    <del>NT$249</del>
                 </div>
                 <div class="saleprice">
-                    <p>$230</p>
+                    <ins>NT$230</ins>
                 </div>
 
             </div>
@@ -116,10 +141,10 @@
                     <h4>賈以食日-拌雙粉 醋香豆瓣（16袋/48入）</h4>
                 </div>
                 <div class="tagprice">
-                    <b>$3,984</b>
+                    <del>NT$3,984</del>
                 </div>
                 <div class="saleprice">
-                    <p>$3,580</p>
+                    <ins>NT$3,580</ins>
                 </div>
             </div>
         </div>
@@ -134,10 +159,10 @@
                 <h4>賈以食日-角落小夥伴 寶貝麵三入綜合提袋組</h4>
             </div>
             <div class="tagprice">
-                <b>$530</b>
+                <del>NT$530</del>
             </div>
             <div class="saleprice">
-                <p>$499</p>
+                <ins>NT$499</ins>
             </div>
         </div>
     </div>
@@ -152,7 +177,7 @@
                     <h4>賈以食日-角落小夥伴 寶貝麵（經典原味）</h4>
                 </div>
                 <div class="tagprice">
-                    <p>$159</p>
+                    <ins>NT$159</ins>
                 </div>
             </div>
         </div>
@@ -165,7 +190,7 @@
                     <h4>賈以食日-角落小夥伴 寶貝麵（綜合蔬菜）</h4>
                 </div>
                 <div class="tagprice">
-                    <p>$159</p>
+                    <ins>NT$159</ins>
                 </div>
             </div>
         </div>
@@ -178,7 +203,7 @@
                     <h4>賈以食日-角落小夥伴 寶貝麵（南瓜地瓜）</h4>
                 </div>
                 <div class="tagprice">
-                    <p>$159</p>
+                    <ins>NT$159</ins>
                 </div>
             </div>
 
@@ -196,10 +221,10 @@
                     <h4>賈以食日-干貝鍋燒意麵</h4>
                 </div>
                 <div class="tagprice">
-                    <b>$150</b>
+                    <del>NT$150</del>
                 </div>
                 <div class="saleprice">
-                    <p>$138</p>
+                    <ins>NT$138</ins>
                 </div>
             </div>
         </div>
@@ -213,10 +238,10 @@
                     <h4>賈以食日-干貝鍋燒意麵（1箱/16盒）</h4>
                 </div>
                 <div class="tagprice">
-                    <b>$2,400</b>
+                    <del>NT$2,400</del>
                 </div>
                 <div class="saleprice">
-                    <p>$2,080</p>
+                    <ins>NT$2,080</ins>
                 </div>
             
             </div>
@@ -234,10 +259,10 @@
                     <h4>賈以食日-泰式酸辣粉（1盒/3入）</h4>
                 </div>
                 <div class="tagprice">
-                    <b>$238</b>
+                    <del>NT$238</del>
                 </div>
                 <div class="saleprice">
-                    <p>$220</p>
+                    <ins>NT$220</ins>
                 </div>
             </div>
         </div>
@@ -250,18 +275,21 @@
                     <h4>賈以食日–泰式酸辣粉（1箱/16盒）</h4>
                 </div>
                 <div class="tagprice">
-                    <b>$3,803</b>
+                    <del>NT$3,803</del>
                 </div>
                 <div class="saleprice">
-                    <p>$3,360</p>
+                    <ins>NT$3,360</ins>
                 </div>
             </div>
         </div>
     </div>   
 
     <div class="first">
-        <img src="https://shoplineimg.com/5b4461529a76f081a2000629/5e460fd1567afd000f0ed00e/2200x.webp?source_format=jpg" alt="">
+        <h1>
+        <img src="https://shoplineimg.com/5b4461529a76f081a2000629/5e460fd1567afd000f0ed00e/2200x.webp?source_format=jpg" alt="精選商品">
+        </h1>
     </div>
+
     <div class="three">
         <div class="item">
             <div class="pic">
@@ -272,7 +300,7 @@
                     <h4>賈以食日-麻花麵（1袋/4入)</h4>
                 </div>
                 <div class="tagprice">
-                    <p>$268</p>
+                    <ins>NT$268</ins>
                 </div>
             </div>
         </div>
@@ -285,7 +313,7 @@
                     <h4>賈以食日-燒椒麵（1袋/4入）</h4>
                 </div>
                 <div class="tagprice">
-                    <p>$268</p>
+                    <ins>NT$268</ins>
                 </div>
             </div>
         </div>
@@ -298,12 +326,12 @@
                     <h4>賈以食日-麻薑麵（1袋/4入)</h4>
                 </div>
                 <div class="tagprice">
-                    <p>$268</p>
+                    <ins>NT$268</ins>
                 </div>
             </div>
         </div>
-
     </div>
+
     <div class="two">
         <div class="item">
             <div class="pic">
@@ -314,7 +342,7 @@
                     <h4>賈以食日-麻薑麵（1袋/4入)</h4>
                 </div>
                 <div class="tagprice">
-                    <p>$268</p>
+                    <ins>NT$268</ins>
                 </div>
             </div>
         </div>
@@ -327,7 +355,7 @@
                     <h4>賈以食日-麻辣鴨血冬粉（1箱/20盒）</h4>
                 </div>
                 <div class="tagprice">
-                    <p>$3,180</p>
+                    <ins>NT$3,180</ins>
                 </div>
             </div>
         </div>
@@ -342,17 +370,19 @@
                     <h4>賈以食日-雪莓餅 (期間限定，售完為止)</h4>
                 </div>
                 <div class="tagprice">
-                    <b>$250</b>
+                    <del>NT$250</del>
                 </div>
                 <div class="saleprice">
-                    <p>$230</p>
+                    <ins>NT$230</ins>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="first">
-        <img src="https://shoplineimg.com/5b4461529a76f081a2000629/5e09b93e5d16a50012b722cd/2200x.webp?source_format=jpg" alt="">
+        <h1>
+        <img src="https://shoplineimg.com/5b4461529a76f081a2000629/5e09b93e5d16a50012b722cd/2200x.webp?source_format=jpg" alt="限時優惠">
+        </h1>
     </div>
 
     <div class="sumikkobig">
@@ -364,7 +394,7 @@
                 <h4>賈以食日-2021 HAPPY 牛 YEAR 福箱</h4>
             </div>
             <div class="tagprice">
-                <p>$999</p>
+                <ins>NT$999</ins>
             </div>
         </div>
     </div>
