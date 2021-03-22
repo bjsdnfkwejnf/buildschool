@@ -31,28 +31,51 @@
             background-image: url(./hw2/finance-skin-slider-2.jpg);
             background-size: cover;
             background-position: center center;
+            text-align: center;
+            display: flex;
+            /* justify-content: flex-end;
+            flex-direction: column; */
 
+        }
+        .firstpart .header{
+            width: 100%;
+            height: 150px;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0.5;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .firstpart .pic{
+            height: 70px;
+            opacity: 1.0;
+        }
+        .firstpart .nav a{
+            margin: 15px;
+            text-decoration: none;
+            color: white;
         }
         .second{
             /* background-color: #faa; */
-            color: #c2b697;
-            width: 100%;
+            /* color: #c2b697; */
+            width: 1200px;
             height: 400px;
             display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: center;
         }
         .second h1{
             /* font-size: 32px;
             font-family: serif; */
             /* font-size: prata; */
-            width: 30%;
+            width: 25%;
             padding: 20px;
         }
         .second p{
             /* font-size: 18px;
             font-family: sans-serif; */
-            width: 70%;
+            width: 50%;
             padding: 20px;
             color: #42474c;
             border-left: 1px solid;
@@ -103,7 +126,18 @@
         <img src="./hw2/awwwards_nominee_silver_right@2x.png" alt="">
     </div>
     <div class="firstpart">
-        <!-- <img src="./hw2/finance-skin-slider-2.jpg" alt=""> -->
+        <div class="header">
+            <div class="pic">
+                <img src="./hw2/invert-logo.png" alt="">
+            </div>
+            <div class="nav">
+                <a href="#">HOME</a>
+                <a href="#">PAGE</a>
+                <a href="#">FEATURES</a>
+                <a href="#">NEWS</a>
+                <a href="#">SHOP</a>
+            </div>
+        </div>
     </div>
     
     <div class="second">
