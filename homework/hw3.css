@@ -123,12 +123,14 @@ a{
 .explan{
     background-color: #fff;
     width: 400px;
-    height: 400px;
+    /* height: 400px; */
     z-index: 2;
 }
 .bgcred{
     background-color: red;
-    height: 35%;
+    /* height: 35%; */
+    width: 400px;
+    padding: 20px;
     font-size: 60px;
     display: flex;
     justify-content: space-around;
@@ -143,7 +145,8 @@ a{
 }
 .bgcblack{
     background-color: black;
-    height: 65%;
+    /* height: 65%; */
+    width: 400px;
     padding: 20px;
     font-size: 30px;
     
@@ -158,11 +161,28 @@ a{
     top: 140px;
     left: 200px;
     z-index: 1;
+    display: flex;
+    justify-items: flex-end;
+}
+.car{
+    position: relative;
+}
+.contorlfun .car img:last-child{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 200px;
 }
 .democar img{
     width: 100%;
+    z-index: 0;
 }
-
+.video-icon{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
 .whiteempt{
     width: 400px;
     height: 450px;
@@ -254,6 +274,17 @@ a{
 .democar-safe img{
     width: 100%;
 }
+.safe .car img:last-child{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+.video-icon{
+    width: 50px;
+    height: 50px;
+}
 .wedo-safe{
     background-color: #999;
     width: 800px;
@@ -335,11 +366,12 @@ a{
     flex-direction: column;
     justify-content: flex-end;
 }
-.car{
+.car-type{
     width: 100%;
     margin: auto;
+    
 }
-.car img{
+.car-type img{
     width: 100%;
 }
 .type h6{
