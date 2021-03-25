@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+    font-size: 32px;
+    font-family: serif;
+    line-height: 1.56;
+    /* padding: 15px; */
+}
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.logo img{
+    width: 90px;
+    height: 135px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.firstpart{
+    /* background-image: ; */
+    width: 100%;
+    height: 670px;
+    background-image: url(./hw2/finance-skin-slider-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    display: flex;
+    /* justify-content: flex-end;
+    flex-direction: column; */
+
+}
+.firstpart .header{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.firstpart .pic{
+    height: 70px;
+    opacity: 1.0;
+}
+.firstpart .nav a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+.firstpart .bigword{
+    color: white;
+}
+.secondpart{
+    /* background-color: #faa; */
+    /* color: #c2b697; */
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.secondpart h1{
+    /* font-size: 32px;
+    font-family: serif; */
+    /* font-size: prata; */
+    width: 25%;
+    padding: 20px;
+}
+.secondpart p{
+    /* font-size: 18px;
+    font-family: sans-serif; */
+    width: 50%;
+    padding: 20px;
+    color: #42474c;
+    border-left: 1px solid;
+    column-count: 2;
+    column-gap: 20px;
+}
+.secondpart p:first-letter{
+    color: #c2b697;
+    font-size: 50px;
+    float: left;
+}
+.thirdpart .box{
+    width: 100%;
+    height: 300px;
+    background-color: #c2b697;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thirdpart h1{
+    height: 56px;
+}
+.thirdpart .item{
+    width: 70%;
+    text-align: left;
+}
+.thirdpart .text{
+    color: white;
+}
+.getintouch a{
+    display: block;
+    background-color: #fff;
+    width: 155px;
+    height: 56px;
+    padding: 15px 10px;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 56px;
+    text-decoration: none;
+    color: black;
+}

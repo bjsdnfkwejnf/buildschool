@@ -1,0 +1,360 @@
+a{
+    text-decoration:none;
+}
+.toyota{
+    width: 100px;
+    height: 60px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toyota img{
+    width: 100%;
+}
+.sublike{
+    /* top: 0;
+    left: 0; */
+    width: 150px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.sublike img{
+    width: 80%;
+}
+.head{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.blackred .black{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+.blackred .red{
+    width: 150px;
+    height: 5px;
+    background-color: red;
+}
+.title{
+    width: 100%;
+    height: 450px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title img{
+    width: 350px;
+    /* height: 50%; */
+}
+.navbar{
+    width: 1200px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    /* top: 0; */
+}
+.nav{
+    color: white;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.nav:hover{
+    border-bottom: 5px red solid;
+}
+.fiveadvance{
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    /* background-color: #faa; */
+    justify-content: center;
+}
+.doblefive{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.five{
+    width: 1200px;
+    /* height: 200px; */
+    font-size: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.navbaroffive{
+    width: 1200px;
+    background-color: white;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navoffive{
+    color: black;
+    width: 150px;
+    /* height: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contorlfun{
+    color: #fff;
+    /* background-color: #faa; */
+    width: 1200px;
+    height: 850px;
+    margin: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.explan{
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    z-index: 2;
+}
+.bgcred{
+    background-color: red;
+    height: 35%;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.bgcred .num{
+    font-size: 90px;
+    transform:rotate(90deg)
+    
+}
+.bgcred h2{
+    align-self: center;
+}
+.bgcblack{
+    background-color: black;
+    height: 65%;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.bgcblack h3{
+    font-size: 40px;
+}
+
+.democar{
+    width: 900px;
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    z-index: 1;
+}
+.democar img{
+    width: 100%;
+}
+
+.whiteempt{
+    width: 400px;
+    height: 450px;
+    z-index: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.white{
+    background-color: rgb(233, 232, 232);
+    width: 400px;
+    height: 450px;
+}
+.wedo{
+    background-color: #999;
+    width: 800px;
+    padding: 15px;
+    position: absolute;
+    top: 650px;
+    left: 80px;
+    z-index: 3;
+}
+.wedo h4{
+    color: red;
+    margin: 0 0 15px;
+}
+.wedo h5{
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+.safe{
+    color: #fff;
+    /* background-color: #faa; */
+    width: 1200px;
+    height: 800px;
+    margin: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.whiteempt-safe{
+    width: 600px;
+    height: 450px;
+    z-index: 0;
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    /* display: flex;
+    align-items: flex-end; */
+}
+.whiteempt-safe .white{
+    width: 600px;
+    height: 480px;
+}
+.explan-safe{
+    background-color: #fff;
+    width: 450px;
+    height: 400px;
+    z-index: 2;
+}
+.bgcred-safe{
+    color: #fff;
+    /* background-color: #faa; */
+    width: 1200px;
+    height: 800px;
+    margin: 30px;
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.bgcblack-safe{
+    background-color: black;
+    height: 65%;
+    padding: 20px;
+    font-size: 30px;
+}
+.democar-safe{
+    width: 800px;
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    z-index: 1;
+}
+.democar-safe img{
+    width: 100%;
+}
+.wedo-safe{
+    background-color: #999;
+    width: 800px;
+    height: 200px;
+    padding: 15px;
+    /* position: absolute; */
+    top: 650px;
+    left: 80px;
+    z-index: 3;
+}
+
+.things46{
+    background-color: white;
+    width: 1200px;
+    height: 600px;
+    margin: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.thingsh2{
+    width: 1200px;
+    height: 500px;
+    z-index: 0;
+}
+.things46 h2{
+    color: black;
+    height: 100%;
+    font-size: 200px;
+}
+
+.digin{
+    background-color: black;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    align-self: flex-end;
+    z-index: 1;
+}
+.backred{
+    background-color: red;
+    width: 200px;
+    height: 70%;
+    align-self: center;
+    /* text-align: center; */
+}
+.digin p{
+    color:rgb(233, 232, 232);
+    line-height: 100%;
+    font-size: 25px;
+}
+
+.cartype{
+    width: 1200px;
+    margin: 50px;
+}
+
+.totaltype{
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+}
+.whatkind{
+    width: 1200px;
+    /* height: 200px; */
+    font-size: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.type{
+    /* background-color: #faa; */
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.car{
+    width: 100%;
+    margin: auto;
+}
+.car img{
+    width: 100%;
+}
+.type h6{
+    height: 25px;
+    line-height: 20px;
+    margin: auto;
+}
+.twolink{
+    display: flex;
+}
+.reservation{
+    background-color: red;
+    color: rgb(233, 232, 232);
+    /* width: 40px; */
+    font-size: 10px;
+    margin: auto;
+    border-radius: 4px;
+}
